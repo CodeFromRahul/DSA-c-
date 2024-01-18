@@ -11,7 +11,7 @@ int main(){
     while (n!=0)
     {
        int digit=n%10;
-       if((n>INT_MAX)||(n<INT_MIN)){
+       if((n>INT_MAX/10)||(n<INT_MIN/10)){
        cout<<"0";
 
        }
