@@ -59,6 +59,10 @@
   "files.associations": {
     "*.ejs": "html",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "array": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp",
+    "algorithm": "cpp"
   }
 }
