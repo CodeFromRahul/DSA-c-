@@ -19,5 +19,11 @@ int main(){
        cout<<array[i]<<" ";
     }
     
+    int second[2]={2};
+    for (int  i = 0; i < 2; i++)
+    {
+        cout<<endl<<second[i]<< " ";
+    }
+    
     return 0;
 }
