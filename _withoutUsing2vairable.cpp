@@ -8,11 +8,13 @@ void printArray(int arr[],int size){
     
 }
 void  alternateArray(int arr[],int size){
-   
+    int temp;
  for (int  i = 0; i < size; i=i+2)
  {
     if((i+1)<size){
-       swap(arr[i],arr[i+1]);
+        temp=arr[i];
+        arr[i]=arr[i+1];
+        arr[i+1]=temp;
     }
  }
  
