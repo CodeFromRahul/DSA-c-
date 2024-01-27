@@ -8,7 +8,7 @@ bool isPossible(int arr[],int n , int m , int mid){
        if(pageCount+arr[i]<=mid){
             pageCount += arr[i];
        }
-       else{
+       else{ 
         studentCount++;
 
         if(studentCount>m || arr[i]>mid){
