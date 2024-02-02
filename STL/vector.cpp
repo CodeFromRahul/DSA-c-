@@ -5,11 +5,6 @@ using namespace std;
 int main(){
 
     vector<int> v;
-    // for (int  i = 0; i <v.capacity(); i++)
-    // {
-    //     cin>>v[i];
-    // }
-
     v.push_back(1);
     
 
@@ -52,5 +47,12 @@ int main(){
      cout<<"after clear"<<endl;
     cout<<v.size()<<endl;
     cout<<v.capacity()<<endl;
+
+
+    vector<int> a(5,1);
+    for(int i:a){
+        cout<<a[i];
+    }
+   
     return 0;
 }
