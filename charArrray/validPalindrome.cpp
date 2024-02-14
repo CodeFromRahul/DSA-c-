@@ -1,3 +1,6 @@
+// #include<iostream>
+//   using namespace std;
+
 // class Solution {
 //     private :
 //     bool validChar(char ch){
@@ -10,14 +13,17 @@
 
 
 //     char toLowercase(char ch){
-//         if((ch>='A'&&ch<='Z' )|| (ch>='0'&&ch<='9')){
+//         char temp;
+//         if((ch>='a'&&ch<='z' )|| (ch>='0'&&ch<='9')){
 //           return ch;
 //         }
-//         else{
-//               char temp = ch-'A'+'a';
+//         else
+//             temp = ch-'A'+'a';
 //         return temp;
 //         }
 //     }
+
+
 //     bool checkPalindrome(string c){
 //     int s = 0;
 //     int e = c.length()-1;
@@ -54,3 +60,14 @@
 //        return checkPalindrome(temp);
 //     }
 // };
+
+
+// int main(){
+//     string str;
+//     cout<<"Enter the string ";
+    
+//     cin>>str;
+
+//     cout<<str;
+//     return 0;
+// }
