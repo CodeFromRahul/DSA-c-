@@ -1,23 +1,23 @@
-#include<iostream>
-#include<list>
-#include <cstring>
-#include <cctype>
-using namespace std;
+// #include<iostream>
+// #include<list>
+// #include <cstring>
+// #include <cctype>
+// using namespace std;
 
-string  reverseWord( char ch[] ){
+// string  reverseWord( char ch[] ){
 
-        if(isspace(ch)){
-
-
-        }
-
-}
-`
+//         if(isspace(ch)){
 
 
+//         }
+
+// }
+// `
 
 
-int main(){
+
+
+// int main(){
     
-    return 0;
-}
+//     return 0;
+// }
